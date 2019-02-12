@@ -35,4 +35,46 @@
     "price": 25,
     "category": "Porção"
   },
+{
+    "id": 7,
+    "name": "Batata Turbinada",
+    "price": 30,
+    "category": "Porção"
+  },
+{
+    "id": 8,
+    "name": "Heineken",
+    "price": 8,
+    "category": "Bebidas"
+  },
+{
+    "id": 9,
+    "name": "Budweiser",
+    "price": 8,
+    "category": "Bebidas"
+  },
+{
+    "id": 10,
+    "name": "Einsebahn",
+    "price": 7,
+    "category": "Bebidas"
+  },
+{
+    "id": 11,
+    "name": "Refrigerante",
+    "price": 5,
+    "category": "Bebidas"
+  },
+{
+    "id": 12,
+    "name": "Suco",
+    "price": 5,
+    "category": "Bebidas"
+  },
+{
+    "id": 13,
+    "name": "Água",
+    "price": 4,
+    "category": "Bebidas"
+  },
 ]
