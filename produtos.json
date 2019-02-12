@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Picanha",
+    "price": 25,
+    "category": "Lanches"
+  },
+{
+    "id": 2,
+    "name": "Double Picanha",
+    "price": 30,
+    "category": "Lanches"
+  },
+{
+    "id": 3,
+    "name": "Costela",
+    "price": 25,
+    "category": "Lanches"
+  },
+{
+    "id": 4,
+    "name": "Double Costela",
+    "price": 30,
+    "category": "Lanches"
+  },
+{
+    "id": 5,
+    "name": "Linguiça",
+    "price": 25,
+    "category": "Lanches"
+  },
+{
+    "id": 6,
+    "name": "Batata",
+    "price": 25,
+    "category": "Porção"
+  },
+]

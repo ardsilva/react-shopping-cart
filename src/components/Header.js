@@ -72,14 +72,13 @@ class Header extends Component {
     cartItems = this.state.cart.map(product => {
       return (
         <li className="cart-item" key={product.name}>
-          <img className="product-image" src={product.image} />
           <div className="product-info">
             <p className="product-name">{product.name}</p>
             <p className="product-price">{product.price}</p>
           </div>
           <div className="product-total">
             <p className="quantity">
-              {product.quantity} {product.quantity > 1 ? "Nos." : "No."}{" "}
+              {product.quantity} {product.quantity > 1 ? "Qtdes" : "Qtd"}{" "}
             </p>
             <p className="amount">{product.quantity * product.price}</p>
           </div>
@@ -113,11 +112,7 @@ class Header extends Component {
       <header>
         <div className="container">
           <div className="brand">
-            <img
-              className="logo"
-              src="https://res.cloudinary.com/sivadass/image/upload/v1493547373/dummy-logo/Veggy.png"
-              alt="Veggy Brand Logo"
-            />
+            Cheff Gourmet PDV
           </div>
 
           <div className="search">
@@ -151,7 +146,7 @@ class Header extends Component {
               <input
                 type="search"
                 ref="searchBox"
-                placeholder="Search for Vegetables and Fruits"
+                placeholder="Buscar Pelo Produto"
                 className="search-keyword"
                 onChange={this.props.handleSearch}
               />
@@ -168,17 +163,17 @@ class Header extends Component {
               <table>
                 <tbody>
                   <tr>
-                    <td>No. of items</td>
+                    <td>No. de items</td>
                     <td>:</td>
                     <td>
                       <strong>{this.props.totalItems}</strong>
                     </td>
                   </tr>
                   <tr>
-                    <td>Sub Total</td>
+                    <td>Total do pedido</td>
                     <td>:</td>
                     <td>
-                      <strong>{this.props.total}</strong>
+                      R$ <strong>{this.props.total}</strong>
                     </td>
                   </tr>
                 </tbody>
@@ -213,7 +208,7 @@ class Header extends Component {
                   type="button"
                   className={this.state.cart.length > 0 ? " " : "disabled"}
                 >
-                  PROCEED TO CHECKOUT
+                  Salvar Venda
                 </button>
               </div>
             </div>

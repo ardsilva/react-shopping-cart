@@ -62,20 +62,6 @@ class Product extends Component {
     let quantity = this.props.productQuantity;
     return (
       <div className="product">
-        <div className="product-image">
-          <img
-            src={image}
-            alt={this.props.name}
-            onClick={this.quickView.bind(
-              this,
-              image,
-              name,
-              price,
-              id,
-              quantity
-            )}
-          />
-        </div>
         <h4 className="product-name">{this.props.name}</h4>
         <p className="product-price">{this.props.price}</p>
         <Counter
@@ -96,7 +82,7 @@ class Product extends Component {
               quantity
             )}
           >
-            {!this.state.isAdded ? "ADD TO CART" : "✔ ADDED"}
+            {!this.state.isAdded ? "ADICIONAR" : "✔ ADICIONADO"}
           </button>
         </div>
       </div>

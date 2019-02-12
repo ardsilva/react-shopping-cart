@@ -283,7 +283,7 @@ header {
       color: $gray-light;
       font-weight: 700;
       &:before {
-        content: "₹ ";
+        content: "R$ ";
       }
     }
   }
@@ -299,7 +299,7 @@ header {
       font-weight: 700;
       text-align: right;
       &:before {
-        content: "₹ ";
+        content: "R$ ";
       }
     }
   }

@@ -36,13 +36,46 @@ class App extends Component {
   }
   // Fetch Initial Set of Products from external API
   getProducts() {
-    let url =
-      "https://res.cloudinary.com/sivadass/raw/upload/v1535817394/json/products.json";
-    axios.get(url).then(response => {
       this.setState({
-        products: response.data
+        products: [
+          {
+            "id": 1,
+            "name": "Picanha",
+            "price": 25,
+            "category": "Lanches"
+          },
+        {
+            "id": 2,
+            "name": "Double Picanha",
+            "price": 30,
+            "category": "Lanches"
+          },
+        {
+            "id": 3,
+            "name": "Costela",
+            "price": 25,
+            "category": "Lanches"
+          },
+        {
+            "id": 4,
+            "name": "Double Costela",
+            "price": 30,
+            "category": "Lanches"
+          },
+        {
+            "id": 5,
+            "name": "Linguiça",
+            "price": 25,
+            "category": "Lanches"
+          },
+        {
+            "id": 6,
+            "name": "Batata",
+            "price": 25,
+            "category": "Porção"
+          },
+        ]
       });
-    });
   }
   componentWillMount() {
     this.getProducts();
