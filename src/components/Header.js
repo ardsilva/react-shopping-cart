@@ -91,16 +91,18 @@ class Header extends Component {
               ×
             </a>
           </li>
-          <div className="totalItems">
-            {this.props.total ? (
-              <p className="total-amount-itens">Valor Total = R${this.props.total}</p>
-            ) : (
-              ""
-            )}
-          </div>
         </div>
       );
     });
+    let totalValue = (
+      <div className="totalItems">
+        {this.props.total ? (
+          <p className="total-amount-itens">Valor Total = R${this.props.total}</p>
+        ) : (
+          ""
+        )}
+      </div>
+    )
     let view;
     if (cartItems.length <= 0) {
       view = <EmptyCart />;
@@ -114,6 +116,7 @@ class Header extends Component {
           className="cart-items"
         >
           {cartItems}
+          {totalValue}
         </CSSTransitionGroup>
       );
     }
