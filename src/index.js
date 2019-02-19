@@ -44,78 +44,168 @@ class App extends Component {
             "price": 25,
             "category": "Lanches"
           },
-        {
+          {
             "id": 2,
             "name": "Double Picanha",
             "price": 30,
             "category": "Lanches"
           },
-        {
+          {
             "id": 3,
             "name": "Costela",
             "price": 25,
             "category": "Lanches"
           },
-        {
+          {
             "id": 4,
             "name": "Double Costela",
             "price": 30,
             "category": "Lanches"
           },
-        {
+          {
             "id": 5,
             "name": "Linguiça",
             "price": 25,
             "category": "Lanches"
           },
-        {
+          {
+            "id": 15,
+            "name": "Lanche no prato",
+            "price": 25,
+            "category": "Lanches"
+          },
+          {
+            "id": 25,
+            "name": "Kids",
+            "price": 25,
+            "category": "Lanches"
+          },
+          {
             "id": 6,
             "name": "Batata",
             "price": 25,
             "category": "Porção"
           },
-        {
+          {
             "id": 7,
             "name": "Batata Turbinada",
             "price": 30,
             "category": "Porção"
           },
-        {
+          {
+            "id": 17,
+            "name": "1/2 Batata",
+            "price": 17,
+            "category": "Porção"
+          },
+          {
             "id": 8,
             "name": "Heineken",
             "price": 8,
             "category": "Bebidas"
           },
-        {
+          {
             "id": 9,
             "name": "Budweiser",
             "price": 8,
             "category": "Bebidas"
           },
-        {
+          {
             "id": 10,
             "name": "Einsebahn",
-            "price": 7,
+            "price": 8,
             "category": "Bebidas"
           },
-        {
+          {
             "id": 11,
-            "name": "Refrigerante",
+            "name": "Coca-Cola",
             "price": 5,
             "category": "Bebidas"
           },
-        {
+          {
+            "id": 21,
+            "name": "Coca-Cola Zero",
+            "price": 5,
+            "category": "Bebidas"
+          },
+          {
+            "id": 31,
+            "name": "Guaraná",
+            "price": 5,
+            "category": "Bebidas"
+          },
+          {
+            "id": 41,
+            "name": "Guaraná Zero",
+            "price": 5,
+            "category": "Bebidas"
+          },
+          {
+            "id": 91,
+            "name": "Agua Tônica",
+            "price": 5,
+            "category": "Bebidas"
+          },
+          {
+            "id": 51,
+            "name": "Tubaína",
+            "price": 5,
+            "category": "Bebidas"
+          },
+          {
+            "id": 61,
+            "name": "Fanta",
+            "price": 5,
+            "category": "Bebidas"
+          },
+          {
+            "id": 71,
+            "name": "Sprite",
+            "price": 5,
+            "category": "Bebidas"
+          },
+          {
             "id": 12,
-            "name": "Suco",
+            "name": "Del Vale Maracuja",
             "price": 5,
             "category": "Bebidas"
           },
-        {
+          {
+            "id": 22,
+            "name": "Del Vale Uva",
+            "price": 5,
+            "category": "Bebidas"
+          },
+          {
+            "id": 32,
+            "name": "Del Vale Pêssego",
+            "price": 5,
+            "category": "Bebidas"
+          },
+          {
+            "id": 14,
+            "name": "H2OH Limonetto",
+            "price": 6,
+            "category": "Bebidas"
+          },
+          {
+            "id": 24,
+            "name": "H2OH Citrus",
+            "price": 6,
+            "category": "Bebidas"
+          },
+          {
+            "id": 34,
+            "name": "H2OH Maçã",
+            "price": 6,
+            "category": "Bebidas"
+          },
+          {
             "id": 13,
             "name": "Água",
             "price": 4,
             "category": "Bebidas"
-          },
+          }
         ]
       });
   }
