@@ -18,7 +18,7 @@ class App extends Component {
       term: "",
       category: "",
       cartBounce: false,
-      quantity: 1,
+      quantity: 0,
       quickViewProduct: {},
       modalActive: false
     };
@@ -166,19 +166,19 @@ class App extends Component {
           },
           {
             "id": 12,
-            "name": "Del Vale Maracuja",
+            "name": "Suco Del Vale Maracuja",
             "price": 5,
             "category": "Bebidas"
           },
           {
             "id": 22,
-            "name": "Del Vale Uva",
+            "name": "Suco Del Vale Uva",
             "price": 5,
             "category": "Bebidas"
           },
           {
             "id": 32,
-            "name": "Del Vale Pêssego",
+            "name": "Suco Del Vale Pêssego",
             "price": 5,
             "category": "Bebidas"
           },
