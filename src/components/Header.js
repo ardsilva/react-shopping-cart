@@ -203,6 +203,13 @@ class Header extends Component {
               ref="cartPreview"
             >
               <CartScrollBar>{view}</CartScrollBar>
+              <div className="totalItems">
+              {this.props.total ? (
+                <p className="amount">{this.props.total}</p>
+              ) : (
+                ""
+              )}
+              </div>
               <div className="action-block">
                 <button
                   type="button"
